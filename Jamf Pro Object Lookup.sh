@@ -55,7 +55,11 @@
 #	- Added support for macOs Big Sur
 #	- specified path to binary calls eg mkdir change to /bin/mkdir
 #
-# version 1.4
+# Updates On: February 6th 2026
+#   - Added support for client secret and Bearer Auth per current requirements of API
+#   - 
+#
+# version 2.0
 # 
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -105,6 +109,8 @@ set input to display dialog "Enter JSS API password" default answer "Password" w
 return text returned of input as string
 EOT
 )
+
+
 
 ######Function to call the script
 call_script () {
